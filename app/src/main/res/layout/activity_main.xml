@@ -19,16 +19,19 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
         android:text="chat now"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="99dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="462dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
